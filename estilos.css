@@ -1,0 +1,461 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-size: 1rem;
+    color: #212529;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.4rem;
+    background-color: #FAFAFA;
+}
+h3 {
+    padding: 20px;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+a {
+    text-decoration: none;
+}
+.box {
+    padding: 5px;
+    margin-top: 20px;
+}
+.submitbtn {
+    width: 100px;
+    padding: 5px;   
+    margin-top: 20px; 
+    border-radius: 3px;
+    border: none;
+    background-color: #AF0171;
+    color: #fff;
+    font-size: 1rem;
+}
+.main-container {
+    background-color: #fff;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 5px;
+}
+/*--------------header-------------*/
+header {
+    display: flex;
+    height: 40px;
+    width: auto;
+    background-color: #535353;
+    align-items: center;
+    margin: 5px 0 3px 0;
+    padding: 20px;
+}
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+header a:hover {
+    color: yellowgreen;
+}
+
+/*---------------banner------------*/
+.banner {
+    display: flex;
+}
+.sig{
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: Comic Sans MS;
+}
+.container-img {
+    width: 70%;
+}
+.imagen {
+    width: 100%;
+    height: 300px;
+}
+.container-link {
+    width: 30%;
+    background-color: #EFEFEF;
+}
+.banner .container-link .link-1,
+.banner .container-link .link-2 {
+    display: flex;
+    align-items: center;
+}
+.banner .container-link .link-1,
+.banner .container-link .link-2 {
+    font-size: 0.8rem;
+    font-family: verdana;
+}
+.banner .container-link .link-1 img,
+.banner .container-link .link-2 img {
+    width: 40px;
+    margin-right: 10px;    
+}
+
+.container-link .link-1, .link-2 {
+    padding: 15px 20px;    
+
+}
+/*-----------------------------*/
+/*--------------main---------------*/
+.main {
+    display: flex;
+}
+.main article {
+    width: 70%;
+    background: #EDEDED;
+}
+.paragraph {
+    padding: 25px;
+    text-align: justify;
+    font-family: serif;
+    background: #EDEDED;
+}
+.paragraph::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.container-sesion {
+    padding: 20px;
+    display: flex;
+}
+.container-session .form-session {
+    width: 50%;
+    padding: 20px 0;
+}
+.container-sesion .form-session .inputContainer{
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-welcome {
+    
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-welcome .imagen {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: auto;
+}
+.container-welcome img {
+    width: 100%;
+
+}
+.container-welcome .box-container {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+#usu{
+    display: inline-block;
+}
+.container-welcome .box-container h4{
+    padding-right: 20px;
+}
+
+.container-converter{
+    display: flex;
+}
+.container-converter .paragraph {
+    width: 60%;
+}
+.container-converter .form-converter {
+    width: 40%;
+    padding: 20px;
+}
+.main aside {
+    width: 30%;
+    background-color: #EFEFEF;
+    font-size: 15px;
+    font-style: serif;
+    text-align: center;
+    color: black;
+}
+aside img {
+    width: 100%;
+    padding: 20px 0;
+    height: 620px;
+}
+footer {
+    background: #535353;
+    padding: 20px;
+}
+.conversor{
+    font-family: Courier;
+    align-items: initial;
+}
+.submitbtn{
+    background: #535353;
+}
+.btn{
+    background: #535353;
+    width: 100px;
+    height: 30px;
+    color:#fff;
+    border-radius: 3px;
+    margin: 10px 0;
+    border: solid 2px #fff;
+    font-size: 11px;
+}
+
+#bolivianos{
+    background: #fff;
+    box-shadow:none;
+    border-color: #535353;
+
+}
+#bolivianos:hover,
+#bolivianos:focus{
+    border-color: #212529;
+}
+#resul{
+    background: #fff;
+    box-shadow:black;
+    border-color: #535353;
+    border: solid px #fff;
+}
+
+/*.siguenos{
+    display: flex;
+}
+.container-img{
+    width: 70%;
+}
+section .imagen{
+    width: 100%;
+    height: 300px;
+}
+.redes{
+    width: 30%;
+}
+.sig{
+    padding: 20px;
+    margin: 5px;
+}
+.sociales li{
+    list-style: none;
+    margin: 10px;
+    text-align: initial;
+    
+}
+/*.sociales{
+    display: flex;
+}*/
+/*----------------------------*/
+/*/
+nav{
+    display: flex;
+    height: 40px;
+    width: auto;
+    background-color: #535353;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+nav a:hover{
+    color: yellowgreen;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+
+
+.redes{    
+    padding: 40px;
+}
+.redes h1{
+    font-size: 50px;
+    font-family: gabriola;
+    text-align: center;
+    font-weight: bold;
+
+}
+form{
+    display: flex;
+    /*background-color: green;*/
+   /* flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px;
+}
+
+form .uno{
+    width: 300px;
+    height: 150px;
+    /*background-color: coral;*/
+    /*margin: 10px;
+    padding: 10px;   
+
+}
+form .dos{
+    width: 250px;
+    height: 200px;
+    /*background-color: coral;*/
+   /* margin: 10px;
+    padding: 10px;
+    text-align: center;    
+}
+form .tres{
+    width: 300px;
+    height: 200px;
+    background-color: coral;
+    margin: 10px;
+    padding: 10px;
+}
+
+form .form-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+form .sesion{
+    margin: initial;
+    padding: 10px;
+}
+form input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: inline-none;
+  display: block;
+  padding: 5px;
+  margin: initial;
+  /*padding: 0.9rem 0.7rem;*/
+ /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 15px;
+  color: #4A4A4A;
+  text-indent: 0px;
+}
+form .btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: initial;
+  padding: 5px;
+  text-align: center;
+  background-color: #2A3942;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 15px;
+}
+form .h3{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: initial;
+    padding: 5px;
+    text-align: center;
+    background-color: #2A3942;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 15px;
+}
+
+.gb{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+section .formulario1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap:wrap;
+    background-color: blue;
+    margin: 10px;
+}
+.cuatro{
+    width: 250px;
+    height: 300px;
+    background-color: coral;
+    margin: 10px;
+    padding: 10px;
+}
+.cinco{
+    width: 250px;
+    height: 200px;
+    background-color: coral;
+    margin: 10px;
+    padding: 10px;
+}
+.seis{
+    width: 400px;
+    height: 550px;
+    background-color: coral;
+    
+    background-image: url("img/repara.jpg");
+}
+.siete{
+    width: 250px;
+    height: 200px;
+    background-color: coral;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.dol{
+    font-family: inherit;    
+    background-color: #fff;
+    border-radius: 4px;
+    border: inline-none;
+    margin: initial;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.16);
+    font-size: 15px;
+}
+form .cam {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: initial;
+    padding: 5px;
+    text-align: center;
+    background-color: #2A3942;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 15px;
+}
+*/

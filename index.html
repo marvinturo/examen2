@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Examen</title>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">Galeria</a>
+                <a href="#">Contacto</a>
+                <div class="animation start-home"></div>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <div class="container-img">
+                <img class="imagen" src="img/reparacion.jpg" height="paisaje">
+            </div>
+
+            <div class="container-link">
+                <h1 class="sig">Siguenos en:</h1>
+                <div class="link-1">
+                    <img src="img/facebock.png" width="45" height="40">
+                    <a href="https://www.facebook.com/groups/383570556761244"target="blank">Facebock</a>
+                </div>
+
+                <div class="link-2">
+                    <img src="img/youtube.png" width="50" height="38">                    
+                    <a href="https://www.youtube.com/watch?v=Z4VXCO8Df2Q&t=23s" target="blank">Youtube</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="main">
+            <article>
+                <div class="container-sesion">
+                    <form action="" class="form-session" id="formulario">
+                        <h3 class="title">Iniciar Sesion</h3>
+                        <div class="inputContainer">
+                            <input type="text" class="box" id="usuario" placeholder="Ingrese Nombre de Usuario">
+                            <input type="button" class="submitbtn" value="Ingresar" name="boton" onclick="sub()">
+                        </div>
+                    </form>
+
+                    <div class="container-welcome">
+                        <div class="imagen">
+                            <img src="img/login.png" height="100px">
+                            <h3 id="respuesta" class="text-center fw-light"></h3>
+                        </div>
+                        <div class="box-container">
+                            <h4>Bienvenido(a): <p id="usu"></p>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-converter">
+                    <p class="paragraph">Ofrecemos Servicios de mantenimiento preventivo para
+                        garantizar el funcionamiento óptimo de los sistemas y
+                        equipos. <br>
+                        <br> Realizamos el mantenimiento informático y damos soporte integral para todas las plataformas y para todos
+                        los sistemas operativos, como Windows, MacOS, Linux etc. Tambien damos soporte para redes, servidores, impresoras, equipos.
+                    </p>
+                    <div id="cv" class="form-converter">
+                        <h3 class="conversor">Conversor Bs a Dolar</h3>
+                        <input type="text" id="bolivianos" placeholder="Bolivianos"> 
+                        <br>
+                        
+                        <input type="text" id="resul" placeholder="Dolares">
+                        <button type="button"  class="btn" onClick="cambio()">
+                        convertir a dólar
+                        </button>
+                    </div>
+                </div>
+                <div class="container-texto">
+                    
+                    <p class="paragraph">El soporte técnico o asistencia técnica es un rango de servicios por medio del cual se proporciona asistencia a
+                        los usuarios al tener algún problema ya sea este de hardware o softwareal al utilizar un equipo de computo, problema que se presenta,
+                        generalmente por el deterioro ocasionados por el excesos de temperatura o acumulacion de polvo,
+                        lo que provoca un desempenio pobre e incluso la perdida de datos.Controle ordenadores de forma remota a través de Internet, como si se
+                        encontrase delante de la pantalla. Ya esté proporcionando soporte espontáneo,
+                        administrando servidores o trabajando desde su oficina en casa, TeamViewer le ayudará a completar su trabajo.</p>
+                </div>
+            </article>
+            <aside>
+                <p class="paragraph">Se realiza un mantenimiento preventivo completo a todos los equipos de cómputo. Este mantenimiento incluye la limpieza del equipo,
+                y la revisión completa de sus componentes para detectar con tiempo cualquier posible falla y el mantenimiento al software.</p>
+                <img src="img/vertical.jpg" alt="">
+            </aside>
+        </section>
+        <footer></footer>
+    </div>
+    <script src="Resources/form.js"></script>
+    <script src="https://kit.fontawesome.com/009e0a83eb.js" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
+
+
+    
+
+
